@@ -1,7 +1,11 @@
 <template>
-  <img src="./logo.png">
-  <h1>Hello Vue 3!</h1>
-  <button @click="inc">Clicked {{ count }} times.</button>
+  <div class="container mx-auto">
+    <img src="./logo.png">
+    <h1>Hello Vue 3!</h1>
+    <button @click="inc" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Clicked {{ count }} times.
+    </button>
+  </div>
 </template>
 
 <script>
